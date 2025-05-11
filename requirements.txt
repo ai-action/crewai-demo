@@ -1,2 +1,2 @@
 crewai==0.119.0
-langchain-community==0.3.23
+langchain_ollama==0.3.2

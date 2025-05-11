@@ -4,10 +4,10 @@ This example demonstrates the simplest way to create an agent and execute a task
 """
 
 from crewai import Agent, Crew, Task
-from langchain_community.llms import Ollama
+from langchain_ollama import OllamaLLM
 
 # Initialize Ollama
-llm = Ollama(model="ollama/gemma:2b")
+llm = OllamaLLM(model="ollama/gemma:2b")
 
 # Create a basic agent
 agent = Agent(
