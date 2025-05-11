@@ -32,4 +32,4 @@ jobs:
         run: ollama pull gemma:2b
 
       - name: Execute task
-        run: python hello_world.py
+        run: python hello_world.py > $GITHUB_STEP_SUMMARY
