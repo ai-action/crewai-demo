@@ -1,2 +1,2 @@
-crewai==0.141.0
+crewai==0.148.0
 langchain_ollama==0.3.4
