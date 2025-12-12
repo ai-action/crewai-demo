@@ -20,7 +20,7 @@ jobs:
         run: pip install -r requirements.txt
 
       - name: Cache model
-        uses: actions/cache@v4
+        uses: actions/cache@v5
         with:
           path: ~/.ollama
           key: ${{ runner.os }}-ollama
